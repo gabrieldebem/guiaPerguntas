@@ -1,0 +1,16 @@
+body{
+    background: #eCeff1
+}
+#ask-form{
+    margin-top: 3vh;
+}
+
+a{
+    color: #eb514f;
+    text-decoration: none;
+}
+a:hover{
+    background: none;
+    text-decoration: none;
+    color: #fff;
+}

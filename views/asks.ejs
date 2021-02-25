@@ -1,0 +1,26 @@
+<%- include('partials/header.ejs'); %>
+<%- include('partials/navbar.ejs'); %>
+<div class="container" id="ask-form"> 
+
+  <div class="card">
+    <div class="card-header">
+      <h3>Faça suas perguntas aqui</h3>
+    </div>
+
+    <div class="card-body">
+      <form method="POST" action="/processAsk">
+        <label for="ask">O que você precisa saber?</label>
+        <input type="text" name="ask" placeholder="Sua pergunta aqui:" class="form-control"> 
+        <br>
+        <label for="description">Explique melher sua pergunta</label>
+        <textarea name="description" placeholder="Descreva sua pergunta:" class="form-control"></textarea> <br>
+        <button class="btn btn-danger">Pronto</button>
+      </form>
+    </div>
+
+  </div>
+
+</div>
+</body>
+
+<%- include('partials/footer.ejs'); %>
